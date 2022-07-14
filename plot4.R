@@ -25,3 +25,4 @@ with(subpower,{
   plot(subpower$Time,as.numeric(as.character(subpower$Global_reactive_power)),type="l",xlab="datetime",ylab="Global_reactive_power")
 })
 
+dev.off()
