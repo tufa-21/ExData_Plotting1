@@ -18,4 +18,4 @@ with(subpower,lines(Time, as.numeric(as.character(Sub_metering_3)),col="blue"))
 
 legend("topright", lty=1, cex = .30,  col=c("black","red","blue"), legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 
-
+dev.off()
